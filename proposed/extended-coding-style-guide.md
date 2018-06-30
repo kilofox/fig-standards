@@ -985,9 +985,9 @@ in the above section.
 $instance = new class {};
 ~~~
 
-The opening parenthesis MAY be on the same line as the `class` keyword so long as
+The opening braces MAY be on the same line as the `class` keyword so long as
 the list of `implements` interfaces does not wrap. If the list of interfaces
-wraps, the parenthesis MUST be placed on the line immediately following the last
+wraps, the braces MUST be placed on the line immediately following the last
 interface.
 
 ~~~php
